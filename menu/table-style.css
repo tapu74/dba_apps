@@ -1,0 +1,94 @@
+body{
+	color: white;
+}
+
+
+ul.pagination {
+    text-align:center;
+    color:#829994;
+}
+ul.pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.pagination a {
+    color:#0d7963;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #cde0dc;
+    text-decoration:none;
+}
+ul.pagination a:hover,
+ul.pagination a.current {
+    background:#0d7963;
+    color:#fff;
+}
+
+
+
+.wrapper{
+	width: 100%;
+}
+.content{
+	margin: 0 auto 0 auto; 
+	width: 700px; 
+	background: gray;
+	padding: 20px;
+}
+.txt-fld{
+	height: 30px;
+	width: 300px;
+}
+.btn{
+	padding: 5px 10px 5px 10px;
+}
+.pbtable{
+	margin:0px;padding:0px;
+	width:100%;	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	background: #afd3e3;
+}
+.pbtable thead th{
+	padding:7px;
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, 
+	color-stop(0.05, #005fbf), color-stop(1, #003f7f) );	
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", 
+	endColorstr="#003f7f");	
+	background: -o-linear-gradient(top,#005fbf,003f7f);
+	background-color:#005fbf;
+}
+.pbtable td{
+	background: white;
+	text-align: left;
+	padding: 7px;
+	font-size: 12px;
+	font-family: Tahoma Arial;
+	font-weight: normal;
+	color: #000000;
+}
+a.link-btn {
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	background: #4479BA;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #20538D;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, 
+	color-stop(0.05, #005fbf), color-stop(1, #003f7f) );	
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+ }
+ a.link-btn:hover{
+    /*background: #356094;*/
+    border: solid 1px #2A4E77;
+    text-decoration: none;	
+	background:-o-linear-gradient(bottom, #356094 5%, #003f7f 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, 
+	color-stop(0.05, #356094), color-stop(1, #003f7f) );	
+	background:-moz-linear-gradient( center top, #356094 5%, #003f7f 100% );
+ }
