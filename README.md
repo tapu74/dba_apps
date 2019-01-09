@@ -1,6 +1,4 @@
 dba_apps
 ========
 
-dba application
-
-baaallll
+Simple dba application
